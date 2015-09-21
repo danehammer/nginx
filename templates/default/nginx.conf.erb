@@ -1,0 +1,16 @@
+user <%= @user %>;
+worker_processes 4;
+pid /run/nginx.pid;
+
+events {
+  worker_connections 768;
+}
+
+http {
+  server {
+    location / {
+      root /data/www;
+    }
+    listen <%= @port %>;
+  }
+}
