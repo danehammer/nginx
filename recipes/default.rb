@@ -14,6 +14,14 @@ if node['platform'] == 'centos'
   end
 end
 
+user node['nginx']['user'] do
+  action :create
+end
+
+group node['nginx']['user'] do
+  action :create
+end
+
 package 'nginx' do
   action :install
 end
@@ -36,7 +44,7 @@ template '/etc/nginx/nginx.conf' do
   owner 'root'
   group 'root'
   variables ({
-    port: node['nginx']['port']
+    port: node['nginx']['port'],
     user: node['nginx']['user']
   })
   notifies :restart, 'service[nginx]', :delayed
