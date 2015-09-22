@@ -1,6 +1,6 @@
 name             'nginx'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Cullen McDermott'
+maintainer_email 'cullenmcd@gmail.com'
 license          'All rights reserved'
 description      'Installs/Configures nginx'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
