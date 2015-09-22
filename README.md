@@ -5,6 +5,7 @@ This cookbook installs Nginx, configures it to listen on port 8000 and display t
 Requirements
 ------------
 CentOS ~> 7.1 or Ubuntu ~> 14.04
+
 Chef ~> 12
 
 Attributes
