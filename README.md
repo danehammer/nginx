@@ -18,7 +18,7 @@ Key|Description|Default|Type|
 
 Usage
 -----
-This cookbook can be ran successfully without and additional role or environment configuration. All that's needed is to upload the cookbook to the Chef Server, apply the recipe straight to the run_list and run chef-client.
+This cookbook can be run successfully without an additional role or environment configuration. All that's needed is to upload the cookbook to the Chef Server, apply the recipe to the run_list and run chef-client.
 
 Testing
 -----
