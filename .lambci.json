@@ -1,0 +1,8 @@
+{
+  "cmd": "whoami",
+  "build": true,
+  "branches": {
+    "master": true,
+    "test": true
+  }
+}
