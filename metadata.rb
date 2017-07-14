@@ -1,10 +1,9 @@
 name             'nginx'
-maintainer       'Cullen McDermott'
-maintainer_email 'cullenmcd@gmail.com'
+maintainer       'NCS'
+maintainer_email 'dane.hammer@newcontext.com'
 license          'All rights reserved'
 description      'Installs/Configures nginx'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.1.3'
+version          '0.1.0'
 
-supports 'centos', '~> 7.1'
-supports 'ubuntu', '~> 14.04'
+supports 'ubuntu', '~> 16.04'
